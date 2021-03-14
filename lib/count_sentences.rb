@@ -18,5 +18,6 @@ class String
     count = self.split(/\.|\?|\!/)
     count.delete("")
     count.count 
+    
   end
 end
